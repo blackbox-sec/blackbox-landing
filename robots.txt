@@ -1,0 +1,48 @@
+# BlackBox Security - Robots.txt
+# Optimizado para SEO de empresa de pentesting
+
+User-agent: *
+Allow: /
+
+# Permitir acceso a archivos CSS y JS para renderizado correcto
+Allow: /src/css/
+Allow: /src/js/
+Allow: /assets/
+
+# Bloquear archivos y directorios sensibles
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /.env
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Permitir bots específicos para herramientas de SEO
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Crawl-delay para ser respetuoso con el servidor
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://blackboxsecurity.com/sitemap.xml
+
+# Host preference (para evitar duplicados)
+Host: blackboxsecurity.com 
