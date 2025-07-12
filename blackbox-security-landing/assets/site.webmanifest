@@ -1,0 +1,84 @@
+{
+    "name": "BlackBox Security - Pentesting Web Profesional",
+    "short_name": "BlackBox Security",
+    "description": "Empresa especializada en pentesting web, auditorías de seguridad y análisis de vulnerabilidades en España",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#00ff88",
+    "background_color": "#0a0a0a",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "es",
+    "dir": "ltr",
+    "categories": ["security", "business", "technology"],
+    "icons": [
+        {
+            "src": "/assets/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/assets/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/assets/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "16x16 32x32 48x48",
+            "type": "image/x-icon",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/screenshot-desktop.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/assets/screenshot-mobile.jpg",
+            "sizes": "375x812",
+            "type": "image/jpeg",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Solicitar Auditoría",
+            "short_name": "Auditoría",
+            "description": "Contactar para solicitar una auditoría de seguridad",
+            "url": "/#contacto",
+            "icons": [
+                {
+                    "src": "/assets/icon-audit.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Ver Servicios",
+            "short_name": "Servicios",
+            "description": "Explorar nuestros servicios de pentesting",
+            "url": "/#servicios",
+            "icons": [
+                {
+                    "src": "/assets/icon-services.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+} 
